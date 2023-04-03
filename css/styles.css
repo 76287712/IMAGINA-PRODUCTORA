@@ -1,0 +1,106 @@
+:root {
+    --color-primario: #ec111a;
+    --color-secundario: #082ba5;
+    --color-sombras: #282d31;
+    --color-titulos: #282d31;
+    --color-text: #53575a;
+    --color-fondo: #fcfcfc;
+    --color-logo: #c50f88;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-fondo);
+}
+
+header {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 10px 0 3px var(--color-sombras);
+}
+nav {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .logo img{
+    height: 90px;
+    width: 100px;
+}
+
+.menu .btn-menu {
+    display: none;
+    color: var(--color-primario);
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: var(--color-text);
+    display: inline-block;
+    padding: 1.9em;
+    text-align: center;
+    font-size: .8em;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.icono-menu {
+    color: black;
+}
+
+.enlaces a:hover {
+    transition: 0.3s;
+    color: var(--color-logo);
+}
+
+.headroom {
+    transition: transform 0.3s ease;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+
+/* Estilos css para Móvil */
+
+@media screen and (max-width: 1023px){
+    header .menu{
+        flex-direction: column;
+    }
+
+    header .menu .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    header .menu .logo .btn-menu {
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+    header .menu .enlaces {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}   
