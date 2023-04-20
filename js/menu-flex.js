@@ -38,3 +38,9 @@ $(function() {
 
     });
 });
+
+// Videos opacity 
+
+function videoUrl (hmmmmmm){
+    document.getElementById("slider").src = hmmmmmm;
+}
