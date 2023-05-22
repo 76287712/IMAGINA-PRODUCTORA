@@ -1,0 +1,72 @@
+[
+    {
+        "id": "curso-01",
+        "titulo": "Perfecto",
+        "imagen": "./img/cursos/01.png",
+        "categoria": {
+            "nombre": "Perfecto",
+            "id": "cursos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "CoreografÍa Alladin" ,
+        "imagen": "./img/cursos/02.png",
+        "categoria": {
+            "nombre": "CoreografÍa Alladin",
+            "id": "cursos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Ojitos lindos, Después de la playa y Esta noche",
+        "imagen": "./img/cursos/03.png",
+        "categoria": {
+            "nombre": "Ojitos lindos, Después de la playa y Esta noche",
+            "id": "cursos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-04",
+        "titulo": "Qué precio tiene el cielo",
+        "imagen": "./img/cursos/04.png",
+        "categoria": {
+            "nombre": "Qué precio tiene el cielo",
+            "id": "cursos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-05",
+        "titulo": "Pedida de mano",
+        "imagen": "./img/cursos/05.png",
+        "categoria": {
+            "nombre": "Pedida de mano",
+            "id": "cursos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-01",
+        "titulo": "Que bueno es quererte",
+        "imagen": "./img/cursos/06.png",
+        "categoria": {
+            "nombre": "Que bueno es querertes",
+            "id": "cursos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Que más te puedo pedir",
+        "imagen": "./img/cursos/08.png",
+        "categoria": {
+            "nombre": "Que más te puedo pedir",
+            "id": "cursos"
+        },
+        "precio": 1000
+    }
+]
