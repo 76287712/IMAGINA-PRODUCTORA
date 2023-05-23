@@ -14,7 +14,7 @@ input {
 
 .container {
   position: relative;
-  width: 80%;
+  width: 100%;
   background-color: #fff;
   min-height: 100vh;
   overflow: hidden;
@@ -33,7 +33,7 @@ input {
   top: 50%;
   transform: translate(-50%, -50%);
   left: 75%;
-  width: 50%;
+  width: 45%;
   transition: 1s 0.7s ease-in-out;
   display: grid;
   grid-template-columns: 1fr;
