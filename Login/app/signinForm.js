@@ -12,7 +12,6 @@ signinForm.addEventListener('submit', async e => {
     try {
         const credentials = await signInWithEmailAndPassword(auth, email, password)
         console.log(credentials)
-        showMessage("Welcome "+userCredentials.user.email,"success")
 
         window.location='../tienda/tienda.html'
     } catch (error) {
