@@ -12,8 +12,9 @@ signinForm.addEventListener('submit', async e => {
     try {
         const credentials = await signInWithEmailAndPassword(auth, email, password)
         console.log(credentials)
+        showMessage("Welcome "+userCredentials.user.email,"success")
+
         window.location='../tienda/tienda.html'
-        showMessage("Bienvenido "+userCredentials.user.email,"mi Dey")
     } catch (error) {
         if (error.code === "auth/network-request-failed"){
             showMessage('Error','error')
