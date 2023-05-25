@@ -1,0 +1,10 @@
+FROM httpd
+WORKDIR /user/local/apache2/htdocs/
+COPY . /usr/local/apache2/htdocs/
+LABEL descripción="Contenedor del proyecto Imagina Productora"
+EXPOSE 80
+RUN sed -i 's/^#ServerName.*/ServerName localhost/' /usr/local/apache2/conf/httpd.conf && \
+    echo "ServerTokens Prod" >> /usr/local/apache2/conf/httpd.conf && \
+    echo "ServerSignature Off" >> /usr/local/apache2/conf/httpd.conf && \
+    echo "TraceEnable off" >> /usr/local/apache2/conf/httpd.conf
+CMD ["httpd-foreground"]
